@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.whatsapp.ChatController">
+    <children>
+        <ScrollPane fx:id="messageArea" fitToHeight="true" fitToWidth="true">
+            <content>
+                <VBox fx:id="messagesContainer" spacing="5" />
+            </content>
+        </ScrollPane>
+      <HBox prefHeight="26.0" prefWidth="209.0">
+         <children>
+              <TextField fx:id="messageField" />
+            <AnchorPane prefHeight="26.0" prefWidth="14.0" />
+              <Button onAction="#sendMessage" text="Enviar" />
+         </children>
+      </HBox>
+    </children>
+    <padding>
+        <Insets bottom="10" left="10" right="10" top="10" />
+    </padding>
+</VBox>
