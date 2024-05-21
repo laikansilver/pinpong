@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.pingpong.PingPongJugador1Controller">
+    <Rectangle fx:id="paddle1" height="50.0" layoutY="185.0" width="15.0" style="-fx-fill: #FFFFFF;" />
+    <Rectangle fx:id="paddle2" height="50.0" layoutX="600.0" layoutY="185.0" width="15.0" style="-fx-fill: #FFFFFF;" />
+    <Circle fx:id="ball" layoutX="300.0" layoutY="200.0" radius="10.0" style="-fx-fill: #FFFFFF;" />
+    <Label fx:id="scoreLabel1" layoutX="100.0" layoutY="20.0" text="Jugador 1: 0" style="-fx-text-fill: #FFFFFF;" />
+    <Label fx:id="scoreLabel2" layoutX="500.0" layoutY="20.0" text="Jugador 2: 0" style="-fx-text-fill: #FFFFFF;" />
+    <Label fx:id="gameNameLabel" layoutX="280.0" layoutY="20.0" text="Ping Pong" style="-fx-text-fill: #FFFFFF;" />
+</AnchorPane>
